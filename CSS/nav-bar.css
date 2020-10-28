@@ -1,0 +1,53 @@
+.nav {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: none;
+  margin-top: 20px;
+  padding: 5%;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 5%;
+}
+
+.nav-ul :nth-child(1) i {
+  color: black;
+}
+
+.nav-ul__Chat {
+  position: relative;
+}
+
+.nav-ul__Chat__Notification {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  right: -10px;
+  top: -5px;
+}
+
+.nav-ul__Setting {
+  position: relative;
+}
+
+.nav-ul__Setting__Notification {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: -10px;
+  top: -5px;
+}

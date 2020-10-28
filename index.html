@@ -30,17 +30,19 @@
         <p class="welcome-header__text_1">If you have a kakao account </p>
         <p class="welcome-header__text_2">log in with your email or phone number</p>
     </header>
+    <form action="FriendList.html" method="GET">
+        <div class="login-input">
+            <input class="login-input__email" type="email" placeholder="Email or phone number"/>
+            <input class="login-input__password" type="password" placeholder="Password"/>
+        </div>
 
-    <div class="login-input">
-        <input class="login-input__email" type="email" placeholder="Email or phone number"/>
-        <input class="login-input__password" type="password" placeholder="Password"/>
-    </div>
+        <div class="login-btn">
+            <button class="login-btn__Login" type="submit">Log in</button>
+            <button class="login-btn__SignUp" type="submit">Sign Up</button>
+        </div>
 
-    <div class="login-btn">
-        <button class="login-btn__Login" type="submit">Log in</button>
-        <button class="login-btn__SignUp" type="submit">Sign Up</button>
-    </div>
-    <a class="Find-AccountOrPassword" href="#">Find kakao Account or Password</a>
+        <a class="Find-AccountOrPassword" href="#">Find kakao Account or Password</a>
+</form>
     <script src="https://kit.fontawesome.com/88dcb997d1.js" crossorigin="anonymous">
     </script>
 </body>

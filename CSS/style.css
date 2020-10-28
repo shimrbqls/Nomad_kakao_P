@@ -60,7 +60,9 @@ body {
   border: none;
   font-size: 15px;
   font-weight: 600;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: var(--kakao__yellow);
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .Find-AccountOrPassword {

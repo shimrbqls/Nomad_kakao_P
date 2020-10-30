@@ -1,0 +1,24 @@
+.User-Component{
+    width: 100%;
+    margin: 0px 10px;
+    display: block;
+}
+
+.User-Component-Ref {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.User-Component-Ref img{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 30px;
+}
+
+.User-Component-Ref__Name{
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+    margin-left: 20px;
+}

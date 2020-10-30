@@ -1,0 +1,25 @@
+.Header-bar{
+    margin-top: 6vh;
+    margin-left: 1vh;
+    margin-bottom: 2vh;
+    margin-right: 1vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Header-bar h1{
+    font-size: 5vh;
+    font-weight: 600;
+  }
+  
+  .Header-bar-Icon{
+    padding-top: 1vh;
+    padding-left: 1vh;
+  }
+  
+  .Header-bar-Icon svg{
+    width: 32px;
+    height: 32px;
+    color: black;
+    margin-left: 2vh;
+  }

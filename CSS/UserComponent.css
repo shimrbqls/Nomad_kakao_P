@@ -1,24 +1,32 @@
-.User-Component{
-    width: 100%;
-    margin: 0px 10px;
-    display: block;
+.User-Component {
+  margin: 0px 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .User-Component-Ref {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
+  display: flex;
+  text-decoration: none;
 }
 
-.User-Component-Ref img{
-    height: 10vh;
-    width: 10vh;
-    border-radius: 30px;
+.User-Component-Ref img {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 30%;
 }
 
-.User-Component-Ref__Name{
-    font-weight: 600;
-    font-size: 25px;
-    color: black;
-    margin-left: 20px;
+.User-Component-Ref-InfoText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding: 15px 0px;
+}
+
+.User-Component-Ref-InfoText__Name {
+  font-weight: 600;
+  font-size: 25px;
+  color: black;
 }

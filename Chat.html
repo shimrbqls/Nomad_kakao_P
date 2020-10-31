@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="CSS/FriendList.css">
+    <link rel="stylesheet" href="CSS/Chat.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends_List</title>
+    <title>Chats</title>
 </head>
 <body>
     <div class="status-bar">
@@ -25,54 +25,37 @@
         </div>
     </div>
     <div class="Header-bar">
-        <h1>Friends</h1>
+        <h1>Chats</h1>
         <form class="Header-bar-Icon">
             <a class="Header-bar-Icon__Search" href="#"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></a>
+            <a class="Header-bar-Icon__ChatPlus" href="#"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></a>
             <a class="Header-bar-Icon__Music" href="#"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path></svg></a>
             <a class="Header-bar-Icon__setting" href="#"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></a>
         </form>
-    </div>
-
-    <div class="FriendsList-Info">
-        <a class="FriendsList-Info__info">
-            <i class="fas fa-info-circle fa-lg"></i>
-            <span class="FriendsList-Info__text">Friends' Names Display</span>
-            <i class="fas fa-chevron-right fa-xs"></i>
-        </a>
-    </div>
-    <div class="MainUser-Component">
-        <div class="User-Component">
-            <a class="User-Component-Ref" href="#">
-                <img class="User-Component-Ref__img" src="IMAGE/papa_picture.JPG">
-                <div class="User-Component-Ref-InfoText">
-                    <span class="User-Component-Ref-InfoText__Name">심규빈</span>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="Friends-Component-Header">
-        <span>Channel</span>
-        <i class="fas fa-chevron-up"></i>
     </div>
 
     <div class="User-Component">
         <a class="User-Component-Ref" href="#">
             <img class="User-Component-Ref__img" src="IMAGE/dalong_1.jpg">
             <div class="User-Component-Ref-InfoText">
-                <span class="User-Component-Ref-InfoText__Name_Friend">윤하은</span>
+                <span class="User-Component-Ref-InfoText__Name">윤하은</span>
+                <p class="User-Component-Ref-InfoText__LastChat">뭐해</p>
             </div>
         </a>
-        <span class="Friends-component__Text">2 ></i></span>
+        <div class="ChatsList-Component-Text">
+            <p class="Friends-component__Text">14:32</p>
+            <p class="Friends-component__UnlookCount">1</p>
+        </div>
     </div>
 
     <nav class="nav">
         <ul class="nav-ul">
             <li class="nav-ul__Friend">
-                <a href="FriendList.html"><i class="fas fa-user fa-2x"></i></a>
+                <a href="FriendList.html"><i class="far fa-user fa-2x"></i></i></a>
 
             </li>
             <li class="nav-ul__Chat">
-                <a href="Chat.html"><i class="far fa-comment fa-2x"></i></a>
+                <a href="Chat.html"><i class="fas fa-comment fa-2x"></i></a>
                 <span class="nav-ul__Chat__Notification">1</span>
             </li> 
             <li class="nav-ul__Find">

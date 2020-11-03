@@ -1,6 +1,45 @@
-.Find-OpenChat-Chatlist{
+.Find-OpenChat-Chatlist__Content{
+    margin-top: 20px;
+    border-bottom: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-width: 1px;
 }
 
-.Find-OpenChat-Chatlist__Content{
-    justify-content: sp;
+.Find-OpenChat-Chatlist__Content a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.Find-OpenChat-Chatlist__MainImg{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+.Find-OpenChat-Chatlist__Info :nth-child(1){
+    color: black;
+    font-size: large;
+    font-weight: 600;
+}
+
+.Find-OpenChat-Chatlist__Info :nth-child(2){
+    margin: 10px 0px;
+    color:  rgba(0, 0, 0, 0.3);
+}
+
+.Find-OpenChat-Chatlist__Info :nth-child(3){
+    height: 20px;
+    width: 20px;
+    border-radius: 7px;
+}
+
+.Find-OpenChat-Chatlist__Info :nth-child(4){
+    color:  rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.Find-OpenChat-Chatlist__Info :nth-child(5){
+    color:  hotpink;
+    text-align: center;
 }

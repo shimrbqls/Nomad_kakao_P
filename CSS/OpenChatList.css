@@ -1,8 +1,8 @@
 .Find-OpenChat-Chatlist__Content{
-    margin-top: 20px;
     border-bottom: solid;
     border-color: rgba(0, 0, 0, 0.3);
     border-width: 1px;
+    padding: 10px 0px;
 }
 
 .Find-OpenChat-Chatlist__Content a{
@@ -11,10 +11,31 @@
     text-decoration: none;
 }
 
-.Find-OpenChat-Chatlist__MainImg{
-    height: 70px;
-    width: 70px;
+.Find-OpenChat-Chatlist-preview :nth-child(2){
+    height: 110px;
+    width: 110px;
     border-radius: 10px;
+}
+
+.Find-OpenChat-Chatlist-preview :nth-child(1){
+    width: 50px;
+    height: 24px;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 80px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Find-OpenChat-Chatlist__Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .Find-OpenChat-Chatlist__Info :nth-child(1){
@@ -24,22 +45,27 @@
 }
 
 .Find-OpenChat-Chatlist__Info :nth-child(2){
-    margin: 10px 0px;
+    margin: 3px 0px;
     color:  rgba(0, 0, 0, 0.3);
 }
 
-.Find-OpenChat-Chatlist__Info :nth-child(3){
+.Chatlist__Content__Info{
+    display: flex;
+    align-items: center;
+}
+
+.Chatlist__Content__Info :nth-child(1){
     height: 20px;
     width: 20px;
     border-radius: 7px;
 }
 
-.Find-OpenChat-Chatlist__Info :nth-child(4){
+.Chatlist__Content__Info :nth-child(2){
     color:  rgba(0, 0, 0, 0.3);
-    text-align: center;
+    align-self: center;
 }
 
-.Find-OpenChat-Chatlist__Info :nth-child(5){
+.Chatlist__Content__Info :nth-child(3){
     color:  hotpink;
-    text-align: center;
+    align-self: center;
 }

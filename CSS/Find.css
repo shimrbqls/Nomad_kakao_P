@@ -4,6 +4,7 @@
 @import "header.css";
 @import "OpenChatList.css";
 @import "no-mobile.css";
+@import "variables.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

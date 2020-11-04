@@ -3,6 +3,8 @@
 @import "nav-bar.css";
 @import "header.css";
 @import "UserComponent.css";
+@import "no-mobile.css";
+@import "variables.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

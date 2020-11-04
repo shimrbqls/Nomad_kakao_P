@@ -4,6 +4,7 @@
 @import "nav-bar.css";
 @import "header.css";
 @import "UserComponent.css";
+@import "no-mobile.css";
 
 body {
   color: #2e363e;
